@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1A7C51A2C6B587F0096416D /* hklib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A7C5112C6B587F0096416D /* hklib.framework */; };
+		F1A7C51A2C6B587F0096416D /* hklib123.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A7C5112C6B587F0096416D /* hklib123.framework */; };
 		F1A7C51F2C6B587F0096416D /* hklibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7C51E2C6B587F0096416D /* hklibTests.swift */; };
 		F1A7C5202C6B587F0096416D /* hklib.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A7C5142C6B587F0096416D /* hklib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1A7C5302C6B5A2D0096416D /* demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7C52F2C6B5A2D0096416D /* demoApp.swift */; };
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1A7C5112C6B587F0096416D /* hklib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hklib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A7C5112C6B587F0096416D /* hklib123.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hklib123.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A7C5142C6B587F0096416D /* hklib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hklib.h; sourceTree = "<group>"; };
-		F1A7C5192C6B587F0096416D /* hklibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hklibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A7C5192C6B587F0096416D /* hklib123Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hklib123Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A7C51E2C6B587F0096416D /* hklibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hklibTests.swift; sourceTree = "<group>"; };
 		F1A7C52D2C6B5A2D0096416D /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A7C52F2C6B5A2D0096416D /* demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoApp.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1A7C51A2C6B587F0096416D /* hklib.framework in Frameworks */,
+				F1A7C51A2C6B587F0096416D /* hklib123.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +79,8 @@
 		F1A7C5122C6B587F0096416D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1A7C5112C6B587F0096416D /* hklib.framework */,
-				F1A7C5192C6B587F0096416D /* hklibTests.xctest */,
+				F1A7C5112C6B587F0096416D /* hklib123.framework */,
+				F1A7C5192C6B587F0096416D /* hklib123Tests.xctest */,
 				F1A7C52D2C6B5A2D0096416D /* demo.app */,
 			);
 			name = Products;
@@ -136,9 +136,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F1A7C5102C6B587F0096416D /* hklib */ = {
+		F1A7C5102C6B587F0096416D /* hklib123 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1A7C5232C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib" */;
+			buildConfigurationList = F1A7C5232C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib123" */;
 			buildPhases = (
 				F1A7C50C2C6B587F0096416D /* Headers */,
 				F1A7C50D2C6B587F0096416D /* Sources */,
@@ -149,14 +149,14 @@
 			);
 			dependencies = (
 			);
-			name = hklib;
+			name = hklib123;
 			productName = hklib;
-			productReference = F1A7C5112C6B587F0096416D /* hklib.framework */;
+			productReference = F1A7C5112C6B587F0096416D /* hklib123.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F1A7C5182C6B587F0096416D /* hklibTests */ = {
+		F1A7C5182C6B587F0096416D /* hklib123Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1A7C5262C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklibTests" */;
+			buildConfigurationList = F1A7C5262C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib123Tests" */;
 			buildPhases = (
 				F1A7C5152C6B587F0096416D /* Sources */,
 				F1A7C5162C6B587F0096416D /* Frameworks */,
@@ -167,9 +167,9 @@
 			dependencies = (
 				F1A7C51C2C6B587F0096416D /* PBXTargetDependency */,
 			);
-			name = hklibTests;
+			name = hklib123Tests;
 			productName = hklibTests;
-			productReference = F1A7C5192C6B587F0096416D /* hklibTests.xctest */;
+			productReference = F1A7C5192C6B587F0096416D /* hklib123Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F1A7C52C2C6B5A2D0096416D /* demo */ = {
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1A7C50B2C6B587F0096416D /* Build configuration list for PBXProject "hklib" */;
+			buildConfigurationList = F1A7C50B2C6B587F0096416D /* Build configuration list for PBXProject "hklib123" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1A7C5102C6B587F0096416D /* hklib */,
-				F1A7C5182C6B587F0096416D /* hklibTests */,
+				F1A7C5102C6B587F0096416D /* hklib123 */,
+				F1A7C5182C6B587F0096416D /* hklib123Tests */,
 				F1A7C52C2C6B5A2D0096416D /* demo */,
 			);
 		};
@@ -288,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		F1A7C51C2C6B587F0096416D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1A7C5102C6B587F0096416D /* hklib */;
+			target = F1A7C5102C6B587F0096416D /* hklib123 */;
 			targetProxy = F1A7C51B2C6B587F0096416D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1A7C50B2C6B587F0096416D /* Build configuration list for PBXProject "hklib" */ = {
+		F1A7C50B2C6B587F0096416D /* Build configuration list for PBXProject "hklib123" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1A7C5212C6B587F0096416D /* Debug */,
@@ -612,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1A7C5232C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib" */ = {
+		F1A7C5232C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib123" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1A7C5242C6B587F0096416D /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1A7C5262C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklibTests" */ = {
+		F1A7C5262C6B587F0096416D /* Build configuration list for PBXNativeTarget "hklib123Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1A7C5272C6B587F0096416D /* Debug */,

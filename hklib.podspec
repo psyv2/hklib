@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "hklib"
+  spec.name         = "hklib123"
   spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
@@ -15,7 +15,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/psyv2/hklib.git", :tag => "#{spec.version}" }
   spec.source_files  = "hklib/**/*.{h,m,swift}"
 
 end
